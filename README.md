@@ -1,7 +1,7 @@
 # price-notification
 Receive notifications regarding the price
 
-#Quick Start
+# Quick Start
 Clone the repository.
 
 Paste the necessary information in the example.env file.
@@ -16,7 +16,7 @@ Change the name of the example.env file to .env file.
 
 Run the script. Default tokens are Bitcoin, Ethereum, Fantom, and UniDex.
 
-#Additional Modifications
+# Additional Modifications
 In main.js
   Change "tokens" constant with desired tokens. Must match the coinID on coingecko.
   Change "vsCurrency" constant with desired currency.
