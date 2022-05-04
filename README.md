@@ -18,9 +18,13 @@ Run the script. Default tokens are Bitcoin, Ethereum, Fantom, and UniDex.
 
 # Additional Modifications
 In main.js
+  
   Change "tokens" constant with desired tokens. Must match the coinID on coingecko.
+  
   Change "vsCurrency" constant with desired currency.
   
 Example modification to receive information on Uni using Euro as the base currency.
+    
     const tokens = ['Uni']
+    
     const vsCurrency = ['euro']
