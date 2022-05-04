@@ -4,6 +4,8 @@ Receive notifications regarding the price
 # Quick Start
 Clone the repository.
 
+Run yarn in the terminal. (may need to install yarn separately)
+
 Paste the necessary information in the example.env file.
 
 EMAIL_USERNAME=username.email@yahoo.com
@@ -25,6 +27,6 @@ In main.js
   
 Example modification to receive information on Uni using Euro as the base currency.
     
-    const tokens = ['Uni']
+    const tokens = ['uni']
     
     const vsCurrency = ['euro']
