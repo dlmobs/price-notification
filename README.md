@@ -6,7 +6,7 @@ Clone the repository.
 
 Run yarn in the terminal. (may need to install yarn separately)
 
-Paste the necessary information in the example.env file.
+Paste the necessary information in the example.env file. **From email must be gmail for quick start. See Additional Modifications for further details.**
 
 EMAIL_USERNAME=username.email@gmail.com
 
