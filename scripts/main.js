@@ -4,7 +4,8 @@ const sendText = require('./sendNotif')
 const main = async() => {
     // get prices for listed tokens
     const tokens = ['bitcoin', 'ethereum', 'fantom', 'unidex']
-    const prices = await priceCall(tokens)
+    const vsCurrency = ['usd']
+    const prices = await priceCall(tokens, vsCurrency)
 
     return prices
 }
